@@ -9,6 +9,9 @@
   "author": "Colin Stodd http://www.colinstodd.com",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "bootstrap": "^4.0.0-alpha.6",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   }
 }

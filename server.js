@@ -5,5 +5,5 @@ var app = express();
 
 app.use(express.static('public'));
 app.listen(3000, function(){
-    console.log('~~~| Express is listening on http://localhost:3000 |~~~');
+    console.log('### Express is listening on http://localhost:3000 ###');
 });
