@@ -7,3 +7,5 @@ let Main = React.createClass({
         );
     }
 });
+
+module.exports = Main;

@@ -10,7 +10,7 @@ module.exports = {
         root: __dirname,        
         extensions: ['', '.js', '.jsx'],
         alias: {
-            Main: './app/components/'
+            Main: './app/components/Main.jsx'
         }
     },
     module:  {
