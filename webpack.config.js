@@ -8,7 +8,10 @@ module.exports = {
     },
     resolve: {
         root: __dirname,        
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js', '.jsx'],
+        alias: {
+            Main: './app/components/'
+        }
     },
     module:  {
         loaders: [
