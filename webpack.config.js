@@ -7,10 +7,7 @@ module.exports = {
         filename: './public/bundle.js'
     },
     resolve: {
-        root: __dirname,
-        alias: {
-        //   ClassName:  'file/path',
-        },
+        root: __dirname,        
         extensions: ['', '.js', '.jsx']
     },
     module:  {
@@ -19,7 +16,7 @@ module.exports = {
             {
                 test:    /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/,
-//                include: path.resolve(__dirname, 'public'),
+                    //include: path.resolve(__dirname, 'public'),
                 loader:  'babel-loader',
                 query: {
                     presets: ['react', 'es2015']
